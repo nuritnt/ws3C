@@ -1,12 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WS3C drone project</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WS3C drone project</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .marquee {
+        overflow: hidden;
+        position: relative;
+      }
 
-</body>
+      .marquee pre {
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        line-height: 50px;
+        transform: translateX(100%);
+        animation: scroll-left 20s linear infinite;
+      }
+
+      @keyframes scroll-left {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+    </style>
+    <script>
+      let i = 0;
+      const colors = [
+        "fuchsia",
+        "pink",
+        "green",
+        "lime",
+        "aqua",
+        "blue",
+        "purple",
+        "red",
+        "yellow",
+        "orange",
+      ];
+      window.setInterval(() => {
+        document.querySelector("pre").style.color = colors[i++ % colors.length];
+      }, 100);
+    </script>
+  </head>
+  <body>
+    <div style="position: fixed; z-index: 1; width: 100%; height: 100%">
+      <iframe
+        width="100%"
+        height="100%"
+        src="https://www.youtube.com/embed/1qN72LEQnaU?si=xuG06sNKESzzFwba&amp;controls=0&amp;start=0&autoplay=1"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </div>
+    <div class="marquee">
+      <pre style="position: relative; z-index: 99; color: fuchsia">
+        Die Hamster (Cricetinae) sind eine zu den
+Wühlern gehörende Unterfamilie der
+Mäuseartigen mit etwa 20 Arten.
+Ihr Verbreitungsgebiet sind trockene und
+halbtrockene Gebiete Eurasiens. In
+Mitteleuropa kommt nur der Feldhamster vor.
+Fossil sind Hamster seit dem mittleren Miozän
+aus dem nördlichen Afrika und aus Eurasien
+bekannt. Die meisten Hamster sind nicht
+gefährdet. Im Juli 2020 stufte die IUCN
+allerdings Feldhamster als „vom Aussterben
+bedroht“ (critically endangered) ein.[1] Eine
+weitere Ausnahme bildet der Syrische
+Goldhamster, der wie einige andere Hamster
+als Versuchs- und Heimtier von Bedeutung ist.
+Die maus- bis rattengroßen Hamster sind von
+wühlmausartiger Gestalt, jedoch meist mit
+kurzem Schwanz. Sie besitzen in jeder
+Kieferhälfte drei bewurzelte Backenzähne,
+deren Höcker in zwei Längsreihen angeordnet
+und durch Schmelzleisten meist kreuzweise
+miteinander verbunden sind. Die innen
+liegenden Backentaschen dienen dem
+Transport der Nahrung.
+
+Äußere Merkmale
+Hamster werden maus- bis rattengroß.[2] Sie sind von wühlmausartiger Gestalt, jedoch meist mit kurzem, weniger als halbkörperlangem Schwanz.[3] Ihr walzenförmiger oder abgerundeter Körper ist an eine grabende Lebensweise sowie an eine Fortbewegung in unterirdischen Gängen angepasst. Der teilweise stummelartig verkleinerte Schwanz ist nahezu funktionslos.[4]
+
+Die kurzen und kräftigen Gliedmaßen der Hamster sind an ausdauerndes Laufen angepasst. Die Vorderpfoten dienen dem Graben, Klettern und Festhalten der Nahrung sowie der Körperpflege. Der Daumen ist zurückgebildet und somit der grabenden Lebensweise angepasst.[4] Hamster besitzen an den Pfoten je fünf Zehen.[5]
+
+Das graue bis braune Fell der Hamster ist weich und dicht. Der Schwanz ist nackt oder behaart, die Sohlen der Pfoten sind meist nackt. Unter den Sohlen der Hinterpfoten befinden sich große, beim Klettern behilfliche Ballen. Hamster besitzen scharfe Krallen.[6][4] In der Bauchmitte befindet sich eine Talgdrüse.[7]
+
+
+Sinnesorgane
+Der Geruchssinn der Hamster ist gut ausgebildet und sie können mit ihrer Nase Nahrung orten sowie auf Güte und Genießbarkeit untersuchen. Ebenfalls gut ausgebildet ist ihr Gehörsinn. Durch die großen, als Schalltrichter wirkenden Ohrmuscheln können Hamster Beutetiere und Fressfeinde leicht wahrnehmen. Zum Schlafen werden die Ohrmuscheln zusammengefaltet und angelegt. Dem Tastsinn der Hamster dienen die langen Tasthaare. Mit ihnen können sie die Beschaffenheit ihrer Umgebung erkennen und sich selbst in der Dunkelheit orientieren. Weniger gut ausgebildet ist ihr Gesichtssinn. Mit den großen schwarzen Augen können die nacht- und dämmerungsaktiven Hamster nicht besonders gut sehen, jedoch Bewegungen und Helligkeitsunterschiede wahrnehmen.[4]
+
+Kauapparat und Gebiss
+
+Fressender Goldhamster
+1	·	0	·	0	·	3	 = 16
+1	·	0	·	0	·	3
+Zahnformel der Hamster
+Die Hamster besitzen einen myomorphen Kauapparat. Im Gegensatz zu anderen Mäuseartigen bewegen sie den Unterkiefer beim Kauen schräg. Charles und Mitarbeiter (2007) stellten bei einem Feldhamster und einem Syrischen Goldhamster einen durchschnittlichen Winkel von 40,2 Grad zwischen der Achse der oberen Backenzahnreihe und 43 zur Zunge gerichteten Mikrokratzern auf dem Entoconid des zweiten Unterkieferbackenzahns fest. Die Standardabweichung betrug 12,2 Grad.[14]
+
+Das für Mäuseartige typische Gebiss der Hamster weist insgesamt 16 Zähne auf. In jeder Kieferhälfte befinden sich ein Nagezahn und drei Backenzähne. Eckzähne und Vorbackenzähne sind nicht vorhanden und jede Backenzahnreihe ist durch eine große zahnfreie Lücke von den Nagezähnen getrennt.
+
+Entwicklung des Gebisses
+Der Zahndurchbruch der Nagezähne erfolgt vor der Geburt[15] oder kurz danach. Darauf brechen die ersten, danach die zweiten und schließlich die dritten Backenzähne durch. Vollständig durchgebrochen sind letztere erst bei erwachsenen Hamstern. Die Kalkeinlagerung der Zahnkronen ist kurz vor dem Zahndurchbruch abgeschlossen, die der Zahnwurzeln deutlich später.[16][17] Geringe Unterschiede beim Zahndurchbruch und bei der Kalkeinlagerung, insbesondere bei den dritten Backenzähnen, könnten mit dem Körperwachstum sowie der Wurfgröße zusammenhängen. Ebenfalls könnten diese durch die Ernährung beeinflusst werden. Das Geschlecht hat offenbar keine Auswirkung. Ein Zahnwechsel findet bei den Hamstern nicht statt.[18]
+
+Nagezähne
+Die Nagezähne des Hamsters wachsen ständig nach und sind gelb pigmentiert.[18] Sie sind nach hinten gebogen, breit und auf der Vorderseite eben.[16] Auf der Rückseite sind sie konkav. Die Schnittkanten sind vorne flach und ausgesprochen meißelförmig. Die Zahnspitzen der oberen und unteren Nagezähne liegen nahezu parallel zueinander. Bei geschlossenem Kiefer berühren die Spitzen der unteren Nagezähne beinahe die zungenseitige Zahnbasis der oberen Nagezähne.[19]
+
+Backenzähne
+Die Backenzähne der Hamster sind im Wachstum beschränkt, nicht pigmentiert und erscheinen bei lebenden Hamstern weiß oder leicht rosa. Sie sind niederkronig und besitzen gut entwickelte Zahnwurzeln. Die Schlussbissstellung der Backenzähne tritt bei in Ruheposition zurückgezogenem Unterkiefer auf.[18] Die oberen und unteren Backenzahnreihen treffen dabei genau aufeinander, die jeweiligen zungen- sowie backenseitigen Kanten sind einander angenähert und die Höcker der Unterkieferbackenzähne liegen vor den entsprechenden Höckern der Oberkieferbackenzähne. Die Backenzähne der Hamster ähneln einander viel mehr als andere tribosphenische (dreihöckrige) Backenzähne.[19]
+
+Die Anzahl der Zahnfächer beträgt normalerweise je vier bei den ersten beiden Oberkieferbackenzähnen, drei beim dritten Oberkieferbackenzahn und je zwei bei den Unterkieferbackenzähnen. Die zwei vorderen Zahnfächer des ersten Oberkieferbackenzahns liegen seitlich versetzt hintereinander. Die zwei hinteren Zahnfächer des ersten Oberkieferbackenzahns, die zwei vorderen sowie die zwei hinteren Zahnfächer des zweiten Oberkieferbackenzahns und die zwei vorderen Zahnfächer des dritten Oberkieferbackenzahns liegen paarweise hintereinander. Das hinterste Zahnfach des dritten Oberkieferbackenzahns liegt mittig und die sechs Zahnfächer der Unterkieferbackenzähne liegen in einer Reihe hintereinander.[20]
+
+Kaufläche der Backenzähne
+
+Rechte Backenzahnreihen eines erwachsenen Feldhamsters aus Rheinhessen.[21]
+Kennzeichnend für die Hamster ist die stumpfhöckerige Kaufläche der Backenzähne, die ihre charakteristischen Merkmale trotz Abrieb im Alter beibehält.[22] Die Zahnhöcker sind entsprechend dem für Wühler typischen cricetiden Bauplan in Ober- und Unterkiefer in zwei Längsreihen angeordnet.[23] Die ersten Backenzähne weisen je drei, die zweiten und dritten Backenzähne je zwei hintereinander liegende Höckerpaare auf. Die Höcker sind durch Schmelzleisten meist kreuzweise miteinander verbunden. An den Vorder- und Hinterenden können weitere Leisten hinzutreten.[24]
+
+Der vorne liegende Anteroconus des ersten Oberkieferbackenzahns ist in einen Innen- und einen Außenhöcker geteilt. Zungenseitig folgen Protoconus und Hypoconus, backenseitig Paraconus und Metaconus. Beim ersten Unterkieferbackenzahn ist das Anteroconid ebenfalls zweigeteilt. Zungenseitig folgen Metaconid und Entoconid, backenseitig Protoconid und Hypoconid. Der Aufbau der zweiten und dritten Backenzähne ist ähnlich, jedoch ist der vorne liegende Schmelzwulst nicht zu einem Anteroconus oder Anteroconid ausgebildet.[21]
+
+Die beiden Höcker eines jeden Paares sind durch eine tiefe Kaugrube voneinander getrennt und backen- sowie zungenseitig befinden sich zwischen jedem Paar breite, dreieckige Furchen. Die Zahnkrone der Backenzähne ist vollständig von Zahnschmelz bedeckt.[18] Durch Abrieb nimmt die Höhe der Höcker mit dem Alter ab und unter dem Zahnschmelz kommt das Zahnbein zum Vorschein.[25] Bei älteren Hamstern sind die Höcker zunächst weniger ausgeprägt und schmal. Durch weiteren Abrieb verbinden sie sich miteinander und verschwinden beinahe.[16]
+
+Backentaschen
+
+Herauspräparierte Backentaschen eines Feldhamsters
+Charakteristisch für die Hamster sind die innen liegenden Backentaschen. Diese verlaufen entlang des Unterkiefers, reichen bis zu den Schultern und dienen dem Transport von Nahrung.[6][4] Ihre Öffnung liegt direkt hinter der Stelle, an der sich Lippen und Backen in der zahnfreien Lücke des Gebisses nach innen wölben.[26] Die Taschen werden durch Ausstülpungen der Mundhöhle tief zu den Halshautmuskeln Platysma und Musculus sphincter colli profundus gebildet. Der Rückziehermuskel leitet sich vom Trapezmuskel ab, als Schließmuskel fungiert die Gruppe der Backenmuskel. An der hinteren Innenwand der Taschen befindet sich ein nach vorne ragendes, stark gefaltetes Gewebe. Dieses ermöglicht die Vergrößerung der Taschen, wenn Nahrung aufgenommen wird.[27] Da die Taschen kein Lymphgefäßsystem besitzen, reagieren ihre Zellen nicht auf Fremdkörper.[26]
+
+Lebensraum und Lebensweise
+Feldhamster grabend in einem Getreidefeld
+Lebensraum
+Die Lebensräume der Hamster sind hauptsächlich trockene und halbtrockene Offenlandschaften der gemäßigten Zone mit an mäßig feuchte bis extrem trockene Standorte angepasster Vegetation in Ebenen und Gebirgen.[28][29] Sie bewohnen Wüstenränder, Lehmwüsten, strauchbewachsene Ebenen, Wald- und Bergsteppen, strauchbewachsene oder felsige Vorberge und Flusstäler.[28] Insbesondere kleinere Arten meiden weder Halbwüsten noch Wüsten.[29] In Anpflanzungen wie Gemüsegärten, Getreidefeldern und Streuobstwiesen können sie sehr zahlreich auftreten.[28]
+
+Ernährung und Fressfeinde
+
+Goldhamster beim Sammeln grüner Blätter in seinen Backentaschen
+Hamster sind vorwiegend Pflanzenfresser[6] und insbesondere Samenfresser. Neben Pflanzensamen ernähren sie sich jedoch auch von grünen Pflanzenteilen, Sprossen, Wurzeln, Früchten,[28] Blättern und Blüten. Gelegentlich können sie Insekten, Eidechsen, Frösche, Mäuse und andere Kleinsäuger, junge Vögel und Schlangen erbeuten. Diese machen jedoch nur einen kleinen Anteil ihrer Nahrung aus. Sie verzehren Feldfrüchte wie Weizen, Gerste, Hirse, Sojabohnen, Erbsen, Kartoffeln, Karotten und Rüben.[6]
+
+Die Nahrung wird als Wintervorrat eingelagert,[6] der hauptsächlich aus Pflanzensamen besteht,[29] bei der Rückkehr in den Bau gefressen oder an der Erdoberfläche verzehrt, wenn alles ruhig ist. Größere Nahrungsteile werden zwischen den Schneidezähnen transportiert. Ihre Backentaschen erlauben den Hamstern jedoch auch, große Mengen kleiner Nahrungsteile zum Bau zu tragen. So wurden in den Vorratskammern des Feldhamsters bis zu 90 Kilogramm Pflanzenmaterial gefunden, die von einem einzelnen Hamster eingetragen worden waren. Ein Rattenartiger Zwerghamster wurde mit 42 Sojabohnen in den Backentaschen gefunden. Ihre zu Händen umgewandelten Vorderpfoten ermöglichen den Hamstern einen äußerst geschickten Umgang mit der Nahrung und die Backentaschen werden mit einer charakteristischen, nach vorne drückenden Bewegung der Pfoten entleert.[6]
+
+Zu den Fressfeinden der Hamster zählen insbesondere Wiesel und kleinere Greifvögel[30], außerdem Füchse und andere Raubtiere.
+
+Baue, Aktivität und Sozialstruktur
+Meist haben die unterirdischen Baue der Hamster mehrere Eingänge, und die Kammern für das Nest, die Ausscheidungen, die Fortpflanzung und die Vorräte sind durch mehrere Gänge miteinander verbunden.[28] Einige Arten nutzen jedoch auch natürliche Unterschlupfe.[29]
+
+Hamster sind hauptsächlich nacht- und dämmerungsaktiv mit eingeschränkter Aktivität bei Tageslicht.[31] Größere Arten halten häufig Winterschlaf,[29] viele kleinere Arten zeigen dagegen ausgedehnte Zustände winterlichen Torpors, der ein paar Tage bis mehrere Wochen anhalten kann, jedoch keinen tiefen Winterschlaf. Zwischendurch ernähren sie sich von ihren Vorräten.[28]
+
+Hamster leben überwiegend solitär,[32] während der Fortpflanzungszeit jedoch auch in Familiengruppen.[29] Sie können außergewöhnlich aggressiv gegenüber Artgenossen sein. Dies könnte auf die starke Konkurrenz um die verstreuten, örtlich jedoch üppigen Nahrungsquellen zurückzuführen sein. Es könnte jedoch auch der Verteilung der Population in einem bestimmten Gebiet dienen. Große Arten wie der Rattenartige Zwerghamster verhalten sich selbst anderen Arten gegenüber aggressiv und können sogar Hunde oder Menschen angreifen, wenn sie bedroht werden. Um sich vor Angriffen zu schützen, werfen sie sich auf den Rücken und stoßen schrille Schreie aus.[6]
+
+Verbreitung, Fossilfunde und Bestand
+Das Verbreitungsgebiet der Hamster sind trockene und halbtrockene Gebiete Eurasiens.[6] In Mitteleuropa kommt nur der Feldhamster vor, im östlichen Europa sind daneben noch der Graue Zwerghamster und der Rumänische Goldhamster verbreitet.[33]
+
+Auch fossil sind die Hamster auf die Paläarktis beschränkt. Im nördlichen Afrika sind sie aus dem mittleren Miozän bekannt, in Europa seit dem mittleren Miozän, in Asien seit dem späten Miozän und im Mittelmeerraum aus dem frühen Pliozän sowie dem Holozän.[34]
+
+Die meisten Hamster sind nicht gefährdet. Ausnahmen bilden jedoch der in Deutschland ansässige Feldhamster, welcher im Juli 2020 von der Weltnaturschutzunion IUCN als „vom Aussterben bedroht“ (critically endangered) eingestuft wurde.[1] Seit 2008 gilt der Syrische Goldhamster als gefährdet („Vulnerable“) sowie der Rumänische Goldhamster und der Türkische Goldhamster als potenziell gefährdet („Near Threatened“).
+
+Systematik und Nomenklatur
+Äußere Systematik
+Die Hamster werden mit den Neuweltmäusen und den Wühlmäusen als Wühler zusammengefasst. So ordnen sie Musser und Carleton (2005) als Unterfamilie Cricetinae den Cricetidae zu. Dabei bilden die rezenten Hamster eine geschlossene Abstammungsgemeinschaft mit eindeutig abgeleiteten, morphologischen Merkmalen.[35] Molekulargenetische Untersuchungen der nukleären LCAT- und vWF-Gene durch Michaux und Mitarbeiter (2001),[36] des nukleären IRBP-Gens durch Jansa und Weksler (2004)[37] sowie der nukleären GHR-, BRCA1-, RAG1- und C-Myc-Gene durch Steppan und Mitarbeiter (2004)[38] bekräftigen die enge Verwandtschaft untereinander, können jedoch die Schwestergruppe der Hamster nicht eindeutig identifizieren. Laut Steppan und Mitarbeitern (2004) haben sie sich im frühen Miozän vor etwa 16,8 bis 19,6 Millionen Jahren von den Neuweltmäusen und vor etwa 16,3 bis 18,8 Millionen Jahren von den Wühlmäusen getrennt.[39]
+
+Im weiteren Sinne umfassen die Hamster neben Arten der Alten Welt noch die Neuweltmäuse.[24] Beide Gruppen wurden häufig in der Unterfamilie Cricetinae vereint, gewöhnlich jedoch zumindest als eigenständige Tribus geführt. Der Afrikanische Hamster und die Maushamster wurden dagegen häufig den Hamstern im engeren Sinne zugeordnet. Dies beruhte jedoch eher auf der Unsicherheit hinsichtlich ihrer systematischen Einordnung als auf der Überzeugung, dass sie eng mit den Hamstern verwandt seien. So wurden der Afrikanische Hamster ab 1966 und die Maushamster ab 1979 zunächst auch als eigenständige Tribus innerhalb der Cricetinae ausgegliedert.[40] Beide sind jedoch nicht näher mit den Hamstern oder anderen Wühlern verwandt.[41][42] Auch die Blindmulle und die zu den Wühlmäusen gehörenden Mull-Lemminge wurden teils als Tribus den Cricetinae zugeordnet.[43][29]
+
+Innere Systematik
+Die rezenten Hamster sind die Überbleibsel einer adaptiven Radiation im Neogen, die zu einer Fülle fossiler Arten führte.[35] Laut molekulargenetischen Untersuchungen der mitochondrialen Cytochrom-b- und 12S-rRNA-Gene sowie des nukleären vWF-Gens durch Neumann und Mitarbeiter (2006) teilen sie sich klar auf drei Hauptzweige auf, die sich im späten Miozän vor etwa 7,6 bis 12,2 Millionen Jahren voneinander trennten.[44] Zunächst spalteten sich vor etwa 8,5 bis 12,2 Millionen Jahren die Kurzschwanz-Zwerghamster und danach vor etwa 7,6 bis 10,8 Millionen Jahren die Mittelhamster von den als Cricetus-Gruppe zusammengefassten restlichen Hamstern ab. Diese teilten sich vor etwa 5,8 bis 7,4 Millionen Jahren in den Langschwanz-Zwerghamster und die Daurischen Zwerghamster einerseits sowie den Rattenartigen Zwerghamster, den Grauen Zwerghamster, den Feldhamster und die Mittelgroßen Zwerghamster andererseits auf. Der Rattenartige Zwerghamster trennte sich schließlich vor 4,9 bis 6,7 Millionen Jahren von den zuletzt genannten Arten ab. Ähnlich alt ist mit 4,9 bis 6,9 Millionen Jahren die erste Aufspaltung innerhalb der Kurzschwanz-Zwerghamster.[45] Die Tibetischen Zwerghamster bilden laut vorläufigen Untersuchungen des 12S-rRNA-Gens durch Lebedew und Mitarbeiter (2003) möglicherweise die Schwestergruppe der Kurzschwanz-Zwerghamster oder nehmen eine basale Stellung innerhalb der Hamster ein.[46] Die angenommene Nähe des Gansu-Zwerghamsters zum Rattenartigen Zwerghamster bedarf noch einer molekulargenetischen Überprüfung.[47] Daraus ergeben sich die folgenden
+      </pre>
+    </div>
+  </body>
 </html>
