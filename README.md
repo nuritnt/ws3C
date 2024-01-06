@@ -16,9 +16,9 @@ This project uses SCSS for its styles. Please make sure to write all your styles
 
 ### Basic Compilation
 To compile your SCSS file into a CSS file, run:
-`sass scss/your-style.scss css/your-style.css`
+`sass scss/style.scss css/style.css`
 This will output the compiled CSS into your existing css/ directory.
 
 ### Automated Watching
 For ongoing development, use the --watch flag to automatically compile SCSS files when they change:
-`sass --watch scss/your-style.scss:css/your-style.css`
+`sass --watch scss/style.scss:css/style.css`
