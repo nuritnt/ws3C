@@ -1,6 +1,7 @@
 # ws3C
 
 This is our semester project using HTML & CSS for our studies in computer science at FHNW for the module ws3C.
+Visit https://aerostep.netlify.app/ for more information (Thanks netlify).
 
 ## Team Members
 - Daniel Barber
