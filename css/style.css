@@ -575,4 +575,70 @@ body {
   display: none;
 }
 
+.mobile-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #faf5f4;
+  z-index: 100;
+}
+.mobile-menu.active {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu--card {
+  margin-top: 20vh;
+  width: 90%;
+  max-width: 800px;
+}
+.mobile-menu--btn {
+  margin-bottom: 40px;
+}
+.mobile-menu .mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.mobile-menu .mobile-menu li {
+  margin: 10px 0;
+}
+.mobile-menu .mobile-menu li a {
+  text-decoration: none;
+}
+.mobile-menu__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 40px 80px;
+}
+.mobile-menu__close-lines {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+}
+.mobile-menu__close-lines::before, .mobile-menu__close-lines::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #1a1a1a;
+}
+.mobile-menu__close-lines::before {
+  transform: rotate(45deg);
+}
+.mobile-menu__close-lines::after {
+  transform: rotate(-45deg);
+}
+
 /*# sourceMappingURL=style.css.map */
