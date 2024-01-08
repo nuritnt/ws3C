@@ -85,7 +85,7 @@ body {
     font-size: 92px;
     font-style: normal;
     font-weight: 900;
-    line-height: 62px; /* 100% */
+    line-height: 62px;
   }
 
   &--copy {
@@ -93,8 +93,8 @@ body {
     font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
     font-weight: 400;
     color: var(--variable-collection-primary-dark);
-    font-size: 30px;
-    line-height: 30px;
+    font-size: 2.3rem;
+    line-height: 1.2;
   }
 }
 
