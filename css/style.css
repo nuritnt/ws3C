@@ -155,6 +155,10 @@ a {
   --variable-collection-primary-background-1: rgba(250, 245, 244, 1);
 }
 
+html {
+  font-size: 16px;
+}
+
 body {
   background-color: #faf5f4;
   box-sizing: content-box;
@@ -178,7 +182,7 @@ body {
   height: 100px;
   padding: 40px 0;
   font-family: Neue Haas Grotesk Text Pro;
-  font-size: 24px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 400;
   line-height: 30.72px; /* 128% */
@@ -216,7 +220,7 @@ body {
   color: var(--variable-collection-accent-purple-dark, #013559);
   padding: 40px 0;
   font-family: "AntiqueOlive Compact-Regular", Helvetica;
-  font-size: 62px;
+  font-size: 92px;
   font-style: normal;
   font-weight: 900;
   line-height: 62px; /* 100% */
@@ -226,8 +230,8 @@ body {
   font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
   font-weight: 400;
   color: var(--variable-collection-primary-dark);
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .offer {
@@ -260,7 +264,7 @@ body {
   top: 35px;
   left: 20px;
   color: var(--condesa-fluid-white);
-  font-size: 28px;
+  font-size: 30px;
   line-height: 38px;
   text-align: center;
   font-family: "Inter-SemiBold", Helvetica;
@@ -280,11 +284,11 @@ body {
   align-items: center;
   cursor: pointer;
   height: 60px;
-  width: 210px;
+  width: 300px;
   background-color: transparent;
 }
 .btn span {
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.7px;
 }
@@ -356,30 +360,36 @@ body {
   width: 100%;
   min-height: 600px;
   height: auto;
-  gap: 30px;
   padding: 40px;
   border-radius: 30px;
   margin: 40px 0;
 }
 .card--title {
+  margin: 20px 0 40px 0;
   width: 300px;
   height: 43.13px;
   color: var(--condesa-fluid-white);
   white-space: nowrap;
   font-family: Inter;
-  font-size: 42px;
+  font-size: 4rem;
   font-style: normal;
   font-weight: 600;
-  line-height: 44px;
+  line-height: 1.25;
+  display: inline-table;
 }
 .card--copy {
   color: var(--condesa-fluid-white);
   letter-spacing: 0;
   font-family: Neue Haas Grotesk Text Pro;
-  font-size: 16px;
+  font-size: 2.3rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 20px; /* 125% */
+  line-height: 1.25;
+  margin: 10px 0;
+  word-wrap: break-word;
+}
+.card--description {
+  font-weight: 600;
 }
 .card__purple {
   background-color: var(--variable-collection-accent-purple-mid);
