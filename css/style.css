@@ -446,7 +446,8 @@ body {
   padding: 15px 0;
   text-decoration: underline;
 }
-.footer--link a:link {
+.footer--link a:link,
+.footer--link a:visited {
   color: var(--condesa-fluid-white);
 }
 

@@ -224,7 +224,6 @@ body {
   }
 }
 
-
 .card {
   display: flex;
   flex-direction: column;
@@ -338,7 +337,8 @@ body {
     padding: 15px 0;
     text-decoration: underline;
 
-    a:link {
+    a:link,
+    a:visited{
       color: var(--condesa-fluid-white);
     }
   }
