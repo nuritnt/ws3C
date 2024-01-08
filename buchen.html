@@ -26,7 +26,7 @@
         </p>
       </div>
 
-      <form class="form" action="" method="get">
+      <form class="form" action="" method="get" id="formBooking">
         <fieldset>
           <legend class="form--title">Jetzt Partner werden</legend>
 
@@ -78,6 +78,11 @@
           <input class="form--btn btn btn--tertiary" type="submit" value="Senden" />
         </fieldset>
       </form>
+      <div class="confirmationMessage card card__orange" id="formBookingConfirmation">
+        <h2 class="card__orange--title card--title">
+          Vielen Dank für Ihre Buchung! Wir werden uns in Kürze bei Ihnen melden.
+        </h2>
+      </div>
 
       <div class="card card__teal">
         <h2 class="card__teal--title card--title">
@@ -102,5 +107,7 @@
       </footer>
 
     </div>
+
+    <script src="form-handler.js"></script>
   </body>
 </html>

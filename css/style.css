@@ -571,4 +571,8 @@ body {
   background-color: var(--variable-collection-accent-1);
 }
 
+.confirmationMessage {
+  display: none;
+}
+
 /*# sourceMappingURL=style.css.map */
