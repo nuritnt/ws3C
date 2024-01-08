@@ -366,16 +366,16 @@ body {
 }
 .card--title {
   margin: 20px 0 40px 0;
-  width: 300px;
+  width: 100%;
   height: 43.13px;
   color: var(--condesa-fluid-white);
-  white-space: nowrap;
   font-family: Inter;
   font-size: 4rem;
   font-style: normal;
   font-weight: 600;
   line-height: 1.25;
   display: inline-table;
+  word-wrap: break-word;
 }
 .card--copy {
   color: var(--condesa-fluid-white);
@@ -436,6 +436,7 @@ body {
   background-color: var(--variable-collection-accent-purple-dark) !important;
   padding: 40px 40px;
   border-radius: 30px;
+  margin-top: 20px;
 }
 .footer--title {
   font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
@@ -459,6 +460,15 @@ body {
 .footer--link a:link,
 .footer--link a:visited {
   color: var(--condesa-fluid-white);
+}
+
+.outro--copy {
+  padding: 40px 20px;
+  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-primary-dark);
+  font-size: 1.8rem;
+  line-height: 3.2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
