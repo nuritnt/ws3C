@@ -157,9 +157,12 @@ a {
 
 html {
   font-size: 16px;
+  height: 100%;
+  box-sizing: content-box;
 }
 
 body {
+  height: 100%;
   background-color: #faf5f4;
   box-sizing: content-box;
   padding: 40px;
@@ -172,6 +175,7 @@ body {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  min-height: 100vh;
 }
 
 .header {
