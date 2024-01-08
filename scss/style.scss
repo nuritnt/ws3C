@@ -160,6 +160,7 @@ body {
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.7px;
+    font-family: Inter;
   }
 
   &:hover {
@@ -192,6 +193,14 @@ body {
 
     span {
       color: var(--condesa-fluid-white, #F4F1E0);
+    }
+  }
+
+  &--quaternary {
+    border: 2px solid var(--variable-collection-accent-1);
+
+    span {
+      color: var(--variable-collection-accent-1);
     }
   }
 }
@@ -364,7 +373,6 @@ body {
 }
 
 .outro {
-
   &--copy {
     padding: 40px 20px;
     font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;

@@ -295,6 +295,7 @@ body {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.7px;
+  font-family: Inter;
 }
 .btn:hover {
   animation: rotate 0.7s ease-in-out both;
@@ -320,6 +321,12 @@ body {
 }
 .btn--tertiary span {
   color: var(--condesa-fluid-white, #F4F1E0);
+}
+.btn--quaternary {
+  border: 2px solid var(--variable-collection-accent-1);
+}
+.btn--quaternary span {
+  color: var(--variable-collection-accent-1);
 }
 
 @keyframes rotate {
