@@ -484,4 +484,91 @@ body {
   line-height: 3.2rem;
 }
 
+.form {
+  background-color: var(--variable-collection-accent-purple-mid);
+  height: 100%;
+  min-height: 600px;
+  width: 100%;
+  border-radius: 30px;
+  padding: 40px;
+  margin-bottom: 80px;
+}
+.form--title {
+  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--condesa-fluid-white);
+  font-size: 4rem;
+  line-height: 1.5rem;
+  padding: 40px 0;
+  margin: 40px 0;
+}
+.form--subtitle {
+  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-weight: 600;
+  color: var(--condesa-fluid-white);
+  font-size: 2rem;
+  line-height: 1.5rem;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.form--label {
+  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-weight: 600;
+  color: var(--condesa-fluid-white);
+  font-size: 2.3rem;
+  line-height: 1.25rem;
+}
+.form--input {
+  width: 100%;
+  min-height: 60px;
+  height: auto;
+  border-radius: 30px;
+  border: 2px solid var(--condesa-fluid-white);
+  background-color: var(--condesa-fluid-white);
+  color: var(--primary-dark);
+  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-weight: 400;
+  font-size: 2.3rem;
+  line-height: 1.25rem;
+  padding: 0 20px;
+  margin: 20px 0 40px 0;
+}
+.form--btn {
+  color: var(--condesa-fluid-white);
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  font-family: Inter;
+}
+.form--radio {
+  list-style-type: none;
+  padding: 10px 0;
+  margin: 10px 0 60px 0;
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.form--radio input[type=radio] {
+  display: none;
+}
+.form--radio input[type=radio]:checked + label {
+  background-color: var(--variable-collection-primary-orange, #EB5027);
+}
+.form--radio__label {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  padding: 10px 30px;
+  margin: 20px 20px;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  height: 60px;
+  width: 300px;
+  background-color: transparent;
+  border: 2px solid var(--condesa-fluid-white);
+}
+.form--radio__label:hover {
+  background-color: var(--variable-collection-accent-1);
+}
+
 /*# sourceMappingURL=style.css.map */

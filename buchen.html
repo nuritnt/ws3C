@@ -26,6 +26,59 @@
         </p>
       </div>
 
+      <form class="form" action="" method="get">
+        <fieldset>
+          <legend class="form--title">Jetzt Partner werden</legend>
+
+          <legend class="form--subtitle">Ich buche</legend>
+          <ul class="form--radio">
+            <li>
+              <input type="radio" id="paket_1" name="paket" value="paket_1" />
+              <label class="form--label form--radio__label" for="paket_1">Paket 1</label>
+            </li>
+            <li>
+              <input type="radio" id="paket_2" name="paket" value="paket_2" />
+              <label class="form--label form--radio__label" for="paket_2">Paket 2</label>
+            </li>
+            <li>
+              <input type="radio" id="paket_3" name="paket" value="paket_3" />
+              <label class="form--label form--radio__label" for="paket_3">Paket 3</label>
+            </li>
+          </ul>
+
+          <label class="form--label" for="name">Name</label>
+          <input class="form--input" type="text" name="name" id="name" required />
+
+          <label class="form--label" for="email">E-Mail</label>
+          <input class="form--input" type="email" name="email" id="email" required />
+
+          <label class="form--label" for="street">Strasse, Nr</label>
+          <input class="form--input" type="text" name="street" id="street" required />
+
+          <label class="form--label" for="street">PLZ</label>
+          <input class="form--input" type="number" name="plz" id="plz" required />
+
+          <label class="form--label" for="street">Ort</label>
+          <input class="form--input" type="text" name="ort" id="ort" required />
+
+          <legend class="form--subtitle">Ich brauche AeroStep</legend>
+          <ul class="form--radio">
+            <li>
+              <input type="radio" id="privat" name="usecase" value="privat" />
+              <label class="form--label form--radio__label" for="privat">Privat</label>
+            </li>
+            <li>
+              <input type="radio" id="geschaeftlich" name="usecase" value="geschaeftlich" />
+              <label class="form--label form--radio__label" for="geschaeftlich">Geschäftlich</label>
+            </li>
+          </ul>
+
+          <label class="form--label" for="text">Nachricht</label>
+          <textarea class="form--input" name="text" id="text" cols="30" rows="10"></textarea>
+          <input class="form--btn btn btn--tertiary" type="submit" value="Senden" />
+        </fieldset>
+      </form>
+
       <div class="card card__teal">
         <h2 class="card__teal--title card--title">
           Noch unschlüssig?
