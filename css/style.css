@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400;600");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400;700;900");
@@ -549,6 +550,29 @@ body {
 }
 .mobile-menu__close-lines::after {
   transform: rotate(-45deg);
+}
+
+.grid-container {
+  display: block;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Zwei Spalten mit gleicher Breite */
+    gap: 40px;
+  }
+  .intro,
+  .card {
+    width: auto;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Behält das zweispaltige Layout bei */
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

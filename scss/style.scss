@@ -571,3 +571,28 @@ body {
     transform: rotate(-45deg);
   }
 }
+
+.grid-container {
+  display: block;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Zwei Spalten mit gleicher Breite */
+    gap: 40px;
+  }
+
+  .intro,
+  .card {
+    width: auto;
+  }
+}
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Behält das zweispaltige Layout bei */
+  }
+}
