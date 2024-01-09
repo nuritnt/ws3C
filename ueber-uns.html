@@ -14,8 +14,36 @@
           <span class="header__content"><a href="index.html">AeroStep</a></span>
         </div>
         <div class="header__hamburger">
-          <button class="header__hamburger-lines"></button>
+          <a href="#" class="header__hamburger-link">
+            <span class="header__hamburger-lines"></span>
+          </a>
         </div>
+        <div class="mobile-menu" id="mobileMenu">
+          <button class="mobile-menu__close">
+            <span class="mobile-menu__close-lines"></span>
+          </button>
+          <div class="mobile-menu--card card card__orange">
+            <ul>
+              <li class="card__orange--title card--title">
+                <a  class="mobile-menu--link" href="index.html">Home</a>
+              </li>
+              <li class="card__orange--title card--title">
+                <a  class="mobile-menu--link" href="angebot.html">Angebot</a>
+              </li>
+              <li class="card__orange--title card--title">
+                <a  class="mobile-menu--link" href="partner-werden.html">Partner werden</a>
+              </li>
+              <li class="card__orange--title card--title">
+                <a class="mobile-menu--link" href="ueber-uns.html">Über uns</a>
+              </li>
+            </ul>
+          </div>
+
+            <a href="buchen.html" class="btn btn--primary mobile-menu--btn">
+              <span>Paket Buchen</span>
+            </a>
+        </div>
+
       </div>
 
       <div class="intro">
@@ -124,5 +152,6 @@
       </footer>
 
     </div>
+    <script src="js/menu-handler.js"></script>
   </body>
 </html>

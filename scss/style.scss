@@ -491,7 +491,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #faf5f4;
+  background-color: var(--condesa-fluid-white);
   z-index: 100;
 
   &.active {
@@ -499,12 +499,17 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    text-decoration: underline;
   }
 
   &--card {
     margin-top: 20vh;
     width: 90%;
     max-width: 800px;
+  }
+
+  &--link {
+    color: var(--condesa-fluid-white);
   }
 
   &--btn {
