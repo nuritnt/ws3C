@@ -95,6 +95,9 @@ body {
 .header__content {
   width: 25%;
 }
+.header__hamburger {
+  margin-top: 30px;
+}
 .header__hamburger-lines {
   outline: none;
   height: 20px;
@@ -519,7 +522,7 @@ body {
 }
 .mobile-menu__close {
   position: absolute;
-  top: 20px;
+  top: 50px;
   right: 20px;
   background: transparent;
   border: none;
