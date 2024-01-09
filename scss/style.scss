@@ -514,6 +514,13 @@ body {
 
   &--btn {
     margin-bottom: 40px;
+    width: 80vw;
+    height: 100px;
+
+    span {
+      font-size: 2.7rem;
+      text-decoration: none;
+    }
   }
 
   .mobile-menu ul {
