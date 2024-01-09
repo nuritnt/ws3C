@@ -11,7 +11,7 @@ body {
   height: 100%;
   background-color: #faf5f4;
   box-sizing: content-box;
-  padding: 40px;
+  padding: 60px;
   color: var(--variable-collection-accent-purple-dark, #013559);
 }
 
@@ -31,7 +31,7 @@ body {
   width: auto;
   height: 100px;
   padding: 40px 0;
-  font-family: Neue Haas Grotesk Text Pro;
+  font-family: "Internet Explorer", "Helvetica Neue";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -81,16 +81,16 @@ body {
   &--header {
     color: var(--variable-collection-accent-purple-dark, #013559);
     padding: 40px 0;
-    font-family: "AntiqueOlive Compact-Regular", Helvetica;
-    font-size: 92px;
+    font-family: "Barlow", Helvetica;
+    font-size: 10.5rem;
     font-style: normal;
     font-weight: 900;
-    line-height: 62px;
+    line-height: 1;
   }
 
   &--copy {
     padding: 20px 0;
-    font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+    font-family: "Inter", Helvetica;
     font-weight: 400;
     color: var(--variable-collection-primary-dark);
     font-size: 2.3rem;
@@ -270,7 +270,7 @@ body {
   &--copy {
     color: var(--condesa-fluid-white);
     letter-spacing: 0;
-    font-family: Neue Haas Grotesk Text Pro;
+    font-family: "Poppins 900", Helvetica;
     font-size: 2.3rem;
     font-style: normal;
     font-weight: 400;
@@ -346,7 +346,7 @@ body {
   padding: 40px;
 
   &--title {
-    font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+    font-family: "Poppins 700", Helvetica;
     font-weight: 700;
     font-style: bold;
     color: var(--condesa-fluid-white);
@@ -356,7 +356,7 @@ body {
   }
 
   &--link {
-    font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+    font-family: "Poppins 700", Helvetica;
     font-weight: 700;
     color: var(--condesa-fluid-white);
     font-size: 32px;
@@ -375,7 +375,7 @@ body {
 .outro {
   &--copy {
     padding: 40px 20px;
-    font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+    font-family: "Poppins 400", Helvetica;
     font-weight: 400;
     color: var(--variable-collection-primary-dark);
     font-size: 1.8rem;
@@ -393,7 +393,7 @@ body {
   margin-bottom: 80px;
 
   &--title {
-    font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+    font-family: "Poppins 400", Helvetica;
     font-weight: 700;
     color: var(--condesa-fluid-white);
     font-size: 4rem;
@@ -403,7 +403,7 @@ body {
   }
 
   &--subtitle {
-    font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+    font-family: "Poppins 400", Helvetica;
     font-weight: 600;
     color: var(--condesa-fluid-white);
     font-size: 2rem;
@@ -413,7 +413,7 @@ body {
   }
 
   &--label {
-    font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+    font-family: "Poppins 700", Helvetica;
     font-weight: 600;
     color: var(--condesa-fluid-white);
     font-size: 2.3rem;
@@ -428,7 +428,7 @@ body {
     border: 2px solid var(--condesa-fluid-white);
     background-color: var(--condesa-fluid-white);
     color: var(--primary-dark);
-    font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+    font-family: "Inter", Helvetica;
     font-weight: 400;
     font-size: 2.3rem;
     line-height: 1.25rem;

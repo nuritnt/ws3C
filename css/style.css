@@ -1,5 +1,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=Inter:600");
+@import url("https://fonts.googleapis.com/css?family=Inter:400;600");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400;700;900");
+@import url("https://fonts.googleapis.com/css?family=Barlow:900");
 * {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
@@ -21,17 +23,24 @@ a {
   text-decoration: none;
 }
 
+/* Poppins font faces */
 @font-face {
-  font-family: "Neue Haas Grotesk Text Pro-Bold";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/60570718477be2ef894ed429/fonts/nhaasgrotesktxpro-55rg.ttf") format("truetype");
+  font-family: "Poppins 400";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Poppins Regular"), local("Poppins-Regular"), url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrFJA.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Neue Haas Grotesk Text Pro-Regular";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/60570718477be2ef894ed429/fonts/nhaasgrotesktxpro-55rg.ttf") format("truetype");
+  font-family: "Poppins 700";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Poppins Bold"), local("Poppins-Bold"), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlFQ.ttf) format("truetype");
 }
 @font-face {
-  font-family: "Neue Haas Grotesk Text Pro-55Roman";
-  src: url("https://anima-uploads.s3.amazonaws.com/projects/601d5748f1e2d6422d0d0d38/fonts/nhaasgrotesktxpro-55rg.otf") format("opentype");
+  font-family: "Poppins 900";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Poppins Black"), local("Poppins-Black"), url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlFQ.ttf) format("truetype");
 }
 :root {
   --condesa-fluid-white: rgba(244, 241, 224, 1);
@@ -55,7 +64,7 @@ body {
   height: 100%;
   background-color: #faf5f4;
   box-sizing: content-box;
-  padding: 40px;
+  padding: 60px;
   color: var(--variable-collection-accent-purple-dark, #013559);
 }
 
@@ -75,7 +84,7 @@ body {
   width: auto;
   height: 100px;
   padding: 40px 0;
-  font-family: Neue Haas Grotesk Text Pro;
+  font-family: "Internet Explorer", "Helvetica Neue";
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -113,15 +122,15 @@ body {
 .intro--header {
   color: var(--variable-collection-accent-purple-dark, #013559);
   padding: 40px 0;
-  font-family: "AntiqueOlive Compact-Regular", Helvetica;
-  font-size: 92px;
+  font-family: "Barlow", Helvetica;
+  font-size: 10.5rem;
   font-style: normal;
   font-weight: 900;
-  line-height: 62px;
+  line-height: 1;
 }
 .intro--copy {
   padding: 20px 0;
-  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   color: var(--variable-collection-primary-dark);
   font-size: 2.3rem;
@@ -281,7 +290,7 @@ body {
 .card--copy {
   color: var(--condesa-fluid-white);
   letter-spacing: 0;
-  font-family: Neue Haas Grotesk Text Pro;
+  font-family: "Poppins 900", Helvetica;
   font-size: 2.3rem;
   font-style: normal;
   font-weight: 400;
@@ -342,7 +351,7 @@ body {
   padding: 40px;
 }
 .footer--title {
-  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-family: "Poppins 700", Helvetica;
   font-weight: 700;
   font-style: bold;
   color: var(--condesa-fluid-white);
@@ -351,7 +360,7 @@ body {
   padding: 40px 0;
 }
 .footer--link {
-  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-family: "Poppins 700", Helvetica;
   font-weight: 700;
   color: var(--condesa-fluid-white);
   font-size: 32px;
@@ -367,7 +376,7 @@ body {
 
 .outro--copy {
   padding: 40px 20px;
-  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-family: "Poppins 400", Helvetica;
   font-weight: 400;
   color: var(--variable-collection-primary-dark);
   font-size: 1.8rem;
@@ -384,7 +393,7 @@ body {
   margin-bottom: 80px;
 }
 .form--title {
-  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-family: "Poppins 400", Helvetica;
   font-weight: 700;
   color: var(--condesa-fluid-white);
   font-size: 4rem;
@@ -393,7 +402,7 @@ body {
   margin: 40px 0;
 }
 .form--subtitle {
-  font-family: "Neue Haas Grotesk Text Pro-Bold", Helvetica;
+  font-family: "Poppins 400", Helvetica;
   font-weight: 600;
   color: var(--condesa-fluid-white);
   font-size: 2rem;
@@ -402,7 +411,7 @@ body {
   margin: 20px 0;
 }
 .form--label {
-  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-family: "Poppins 700", Helvetica;
   font-weight: 600;
   color: var(--condesa-fluid-white);
   font-size: 2.3rem;
@@ -416,7 +425,7 @@ body {
   border: 2px solid var(--condesa-fluid-white);
   background-color: var(--condesa-fluid-white);
   color: var(--primary-dark);
-  font-family: "Neue Haas Grotesk Text Pro-55Roman", Helvetica;
+  font-family: "Inter", Helvetica;
   font-weight: 400;
   font-size: 2.3rem;
   line-height: 1.25rem;
