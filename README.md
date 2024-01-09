@@ -32,4 +32,4 @@ We will use BEM syntax for our styles. A BEM class name includes up to three par
 - Modifier: Either a block or element may have a variation signified by a modifier.
 
 If all three are used in a name it would look something like this:
-`[block]__[element]--[modifier]``
+`[block]__[element]--[modifier]`
