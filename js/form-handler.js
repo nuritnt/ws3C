@@ -1,21 +1,31 @@
-document.addEventListener('DOMContentLoaded', function() {
-  var forms = document.querySelectorAll('.form');
+// document.addEventListener('DOMContentLoaded', function() {
+//   var forms = document.querySelectorAll('.form');
 
-  forms.forEach(function(form) {
-    form.addEventListener('submit', function(event) {
-      event.preventDefault();
+//   forms.forEach(function(form) {
+//     form.addEventListener('submit', function(event) {
+//       event.preventDefault();
 
-      // Verstecke das gesamte Formular
-      form.style.display = 'none';
+//       // Sammle die Formulardaten
+//       var formData = new FormData(form);
 
-      // Bestimme die ID der Bestätigungsnachricht basierend auf der ID des Formulars
-      var confirmationId = form.id + 'Confirmation';
+//       // Senden der Formulardaten mit fetch
+//       fetch("/", {
+//         method: "POST",
+//         headers: { "Content-Type": "application/x-www-form-urlencoded" },
+//         body: new URLSearchParams(formData).toString(),
+//       })
+//       .then(() => {
+//         // Verstecke das gesamte Formular
+//         form.style.display = 'none';
 
-      // Zeige die Bestätigungsnachricht
-      var confirmationMessage = document.getElementById(confirmationId);
-      if (confirmationMessage) {
-        confirmationMessage.style.display = 'block';
-      }
-    });
-  });
-});
+//         // Zeige die Bestätigungsnachricht
+//         var confirmationId = form.id + 'Confirmation';
+//         var confirmationMessage = document.getElementById(confirmationId);
+//         if (confirmationMessage) {
+//           confirmationMessage.style.display = 'block';
+//         }
+//       })
+//       .catch((error) => alert(error));
+//     });
+//   });
+// });
