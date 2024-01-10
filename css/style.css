@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 @import url("https://fonts.googleapis.com/css?family=Inter:400;600");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400;700;900");
@@ -572,6 +573,33 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 40px;
+  }
+  body {
+    font-size: max(16px, 1vw); /* Maximale Schriftgröße für den Haupttext */
+  }
+  .intro--header, .card--title, .footer--title, .form--title, .mobile-menu--link {
+    font-size: max(2rem, 2vw); /* Maximale Schriftgröße für h1 */
+  }
+  .form--subtitle {
+    font-size: max(2rem, 2vw); /* Maximale Schriftgröße für h1 */
+  }
+  .intro--copy, .card--copy, .footer--link {
+    font-size: max(1.8rem, 1.2vw); /* Maximale Schriftgröße für Paragraphen */
+  }
+  .btn {
+    height: 60px;
+    width: 200px;
+  }
+  .btn span {
+    font-size: max(1rem, 1.2vw); /* Maximale Schriftgröße für Buttons */
+  }
+  .form--label, .form--btn {
+    font-size: max(1.5rem, 1.2vw); /* Maximale Schriftgröße für Buttons */
+  }
+  .mobile-menu--btn {
+    height: 60px;
+    width: 250px;
+    margin-bottom: 80px;
   }
 }
 
