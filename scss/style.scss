@@ -577,10 +577,9 @@ body {
 }
 
 /* Tablet */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 999px) {
   .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Zwei Spalten mit gleicher Breite */
+    display: block;
     gap: 40px;
   }
 
@@ -591,8 +590,10 @@ body {
 }
 
 /* Desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) {
   .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* Behält das zweispaltige Layout bei */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
   }
 }
