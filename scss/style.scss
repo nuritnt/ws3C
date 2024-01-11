@@ -598,24 +598,28 @@ body {
   }
 
   body {
-    font-size: max(16px, 1vw); /* Maximale Schriftgröße für den Haupttext */
+    font-size: max(16px, 1vw);
   }
 
-  .intro--header, .card--title, .footer--title, .form--title, .mobile-menu--link {
-    font-size: max(2rem, 2vw); /* Maximale Schriftgröße für h1 */
+  .intro--header {
+    font-size: max(4rem, 2vw);
+  }
+
+  .card--title, .footer--title, .form--title, .mobile-menu--link {
+    font-size: max(2.4rem, 2vw);
   }
 
   .form--subtitle {
-    font-size: max(2rem, 2vw); /* Maximale Schriftgröße für h1 */
+    font-size: max(2rem, 2vw);
   }
 
   .intro--copy, .card--copy, .footer--link {
-    font-size: max(1.8rem, 1.2vw); /* Maximale Schriftgröße für Paragraphen */
+    font-size: max(1.8rem, 1.2vw);
   }
 
   .btn {
     span {
-      font-size: max(1rem, 1.2vw); /* Maximale Schriftgröße für Buttons */
+      font-size: max(1rem, 1.2vw);
     }
 
     height: 60px;
@@ -623,7 +627,7 @@ body {
   }
 
   .form--label, .form--btn {
-    font-size: max(1.5rem, 1.2vw); /* Maximale Schriftgröße für Buttons */
+    font-size: max(1.5rem, 1.2vw);
   }
 
   .mobile-menu--btn {
